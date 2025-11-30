@@ -375,6 +375,7 @@ done
 %dir %{_datadir}/wine/fonts
 %{_datadir}/wine/fonts/*
 # %{_datadir}/wine/color/*
+%_datadir/%name
 
 %if 0%{?fedora} < 40
 %ifarch %{ix86}
