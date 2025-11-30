@@ -374,8 +374,7 @@ done
 %{_datadir}/applications/*.desktop
 %dir %{_datadir}/wine/fonts
 %{_datadir}/wine/fonts/*
-# %{_datadir}/wine/color/*
-%_datadir/%name
+%_datadir/wine-staging
 
 %if 0%{?fedora} < 40
 %ifarch %{ix86}
