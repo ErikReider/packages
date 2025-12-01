@@ -374,7 +374,7 @@ done
 %{_datadir}/applications/*.desktop
 %dir %{_datadir}/wine/fonts
 %{_datadir}/wine/fonts/*
-%_datadir
+%_datadir/share/wine/
 
 %if 0%{?fedora} < 40
 %ifarch %{ix86}
